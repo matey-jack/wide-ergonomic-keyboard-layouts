@@ -23,7 +23,7 @@ Both pictures show that even when the keyboard doesn't advertise swappable keyca
 
 Currently, there are only keymaps for Windows because I need someone to test any Mac version, even though it can easily be generated.
 
-If you want to inspect the mappings or compile them yourself using MS Keyboard Layout Creator, check the .klc files in the repo. If you just want to get the keymap to install in Windows and use it, head to the [releases] tab.
+If you want to inspect the mappings or compile them yourself using MS Keyboard Layout Creator, check the `.klc` files in the repo. If you just want to get the keymap to install in Windows and use it, head to the [releases] tab.
 
 
 # I know Qwerty and Colemak, but what is Qwpr?
@@ -34,7 +34,7 @@ If, however, you would like to try an improved letter mapping and want to avoid 
 
 ![qwpr keymap](qwpr%20wide%20keymap.png)
 
-As you can see on the picture, Qwpr only changes 10 letters (and semicolon) from their Qwerty position and all but P and E even stay on the same finger (if you are touch-typing). This makes it almost trivial to learn this letter mapping with some half-hours of practice at https://typ.ing. There's not much literature about this mapping developed by Jameson Quinn, but my keymap comparator shows that it has [great metrics] for its easy learnability. That's why I included it here.
+As you can see on the picture, Qwpr only changes 10 letters (and semicolon) from their Qwerty position and all but P and E even stay on the same finger (if you are touch-typing). This makes it almost trivial to learn this letter mapping with some half-hours of practice at https://typ.ing. There's not much literature about this mapping, which was developed by Jameson Quinn, but my keymap comparator shows that it has [great metrics] for its easy learnability. That's why I included it here.
 
 # Future Work -or- Why are there no other language-layouts here?
 
@@ -42,11 +42,11 @@ As you can see on the picture, Qwpr only changes 10 letters (and semicolon) from
 
 In short, two reasons:
  1. problems with the ISO keyboard layout.
- 2. so many additional improvements are possible that I don't know where to start, but you can easily make your own.
+ 2. so many additional improvements are possible that I don't know where to start with, but you can easily make your own.
 
 ### What are those problems with the ISO layout?
 
- - first, the extra key next the left Shift becomes very annoying on a wide keymap. The wide keymap makes the right Shift much easier to reach so that the left Shift suddenly feels much worse. Different people prefer different solutions to this:
+ - first, the extra key next the left Shift becomes very annoying on a wide keymap. The wide keymap makes the right Shift much easier to reach, so that the left Shift suddenly feels much worse. Different people prefer different solutions to this:
 
    - a. make that additional key into a second Shift key, so that it behaves like the ANSI keyboard (with a big Shift key) only that the key is split in two.
    - b. use the Caps Lock key as a second Shift key. 
