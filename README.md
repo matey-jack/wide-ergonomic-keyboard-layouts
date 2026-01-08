@@ -1,7 +1,7 @@
 # wide-ergonomic-keyboard-layouts
 Type faster and more comfortably, just by changing your keyboard layout[(*)](#footnotes). 
 
-![qwerty wide](qwerty%20wide.png)
+![qwerty wide](images/qwerty%20wide.png)
 
 # What is this about?
 
@@ -12,10 +12,10 @@ You have probably heard of alternative letter mappings like Colemak (or the nowa
  - and finally, brings your right hand a bit closer to your mouse.
 
 So, in short, it gives you some benefits of an ergonomic keyboard without having to buy one; and it even improves the ergonomics of any ergonomic keyboard that is not fully symmetric. Here's a wide keymap on my old Microsoft Sculpt keyboard:
-![MS Sculpt with wide German keymap](MS%20Sculpt%20with%20wide%20German%20keymap.jpg)
+![MS Sculpt with wide German keymap](images/MS%20Sculpt%20with%20wide%20German%20keymap.jpg)
 
 And here, one of two laptops that I switched to a wide keymap:
-![Laptop with wide keymap](Laptop%20with%20wide%20keymap.jpg)
+![Laptop with wide keymap](images/Laptop%20with%20wide%20keymap.jpg)
 
 Both pictures show that even when the keyboard doesn't advertise swappable keycaps, you can swap keycaps. Just try it first with an unimportant key such as *Break* or *PrintScr* and you'll be on the safe side.
 
@@ -25,6 +25,15 @@ Currently, there are only keymaps for Windows because I need someone to test any
 
 If you want to inspect the mappings or compile them yourself using MS Keyboard Layout Creator, check the `.klc` files in the repo. If you just want to get the keymap to install in Windows and use it, head to the [releases] tab.
 
+# What about programmable keyboards?
+
+Great Question! This repo doesn't have any wide-map config for any type of programmable keyboard because there's so much variation and also because it's so easy to configure these keyboards individually. If you want to try a wide keymap, just fire up your keyboard programming tool, move the letters (and other character keys) around, and within a few minutes you'll be able to try it. 
+
+I made this repository mostly for use with laptops, for when you don't have an external keyboard around. Otherwise, I recommend that any external keyboard you buy should be programmable for several reasons:
+ * you can use the wide-mod config on any operating system, even Android, iOS, ChromeOS which don't otherwise let you configure the keymap for physical keyboards.
+ * you can add a nav-layer, so you don't need to reach far for the home/end and cursor keys if you just want to move a few characters/words back to fix a typo.
+ * you can fix a lot of the awkward keyboard shortcuts like Windows Win+Shift+S for a screenshot; I just turned it into Fn+S.
+ * and finally, you can also make other improvements to the base keymap, like swapping J and N or going full QWPR to minimize your finger movement during typing of long(ish) English messages or text (such as what I am just typing here, haha).
 
 # I know Qwerty and Colemak, but what is Qwpr?
 
@@ -32,7 +41,7 @@ First of all, if you are used to the Qwerty or Colemak letter arrangement and wa
 
 If, however, you would like to try an improved letter mapping and want to avoid spending much learning time and the period of slow typing which comes with that, then Qwpr might be for you. 
 
-![qwpr keymap](qwpr%20wide%20keymap.png)
+![qwpr keymap](images/qwpr%20wide%20keymap.png)
 
 As you can see on the picture, Qwpr only changes 10 letters (and semicolon) from their Qwerty position and all but P and E even stay on the same finger (if you are touch-typing). This makes it almost trivial to learn this letter mapping with some half-hours of practice at https://typ.ing. There's not much literature about this mapping, which was developed by Jameson Quinn, but my keymap comparator shows that it has [great metrics] for its easy learnability. That's why I included it here.
 
