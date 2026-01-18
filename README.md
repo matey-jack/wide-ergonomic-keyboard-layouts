@@ -76,7 +76,7 @@ And it goes on like this: once you already downloaded the keymap editor for your
 
 ### Footnotes
 
-(*) Actually, you change not the keyboard, but the "keymap", that is, what each key does when it is pressed. The "layout" is how the physical keys are arranged and you'd need a new keyboard to change it. See https://matey-jack.github.io/key-layout-visualizer/ for the difference.
+(*) Actually, you change not the keyboard layout, but the "keymap", that is, what each key does when it is pressed. The "layout" is how the physical keys are arranged and you'd need a new keyboard to change it. See https://matey-jack.github.io/key-layout-visualizer/ for the difference.
 
 [releases]: https://github.com/matey-jack/wide-ergonomic-keyboard-layouts/releases
 [comparison app]: https://matey-jack.github.io/key-layout-visualizer/
