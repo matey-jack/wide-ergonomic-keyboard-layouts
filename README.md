@@ -19,6 +19,11 @@ And here, one of two laptops that I switched to a wide keymap:
 
 Both pictures show that even when the keyboard doesn't advertise swappable keycaps, you can swap keycaps. Just try it first with an unimportant key such as *Break* or *PrintScr* and you'll be on the safe side.
 
+# Credits
+
+This concept was first invented by people in the early Colemak fan club, who [documented it nicely](https://colemakmods.github.io/ergonomic-mods/wide.html). 
+This is how I learned about it long ago. Thanks to all who contributed there!
+
 # What is there for Download?
 
 Currently, there are only keymaps for Windows because I need someone to test any Mac version, even though it can easily be generated.
